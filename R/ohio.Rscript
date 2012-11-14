@@ -1,0 +1,6 @@
+source("ohio.history.R")
+
+ggsave("../images/ohio.png", plot=ohio.gg)
+
+# need to work with fonts to make smaller image
+#ggsave("../images/ohio-small.pdf", plot=ohio.gg,width=1.3,height=2.3)
